@@ -1,11 +1,5 @@
-# Python cache files
-__pycache__/
-*.pyc
-
-# Project specific files
-file_tracker.json
-/Data Out/
-*.xml
-
-# OS files
+node_modules/
+.android/
+.env
 .DS_Store
+*.log
