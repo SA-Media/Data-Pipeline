@@ -1,0 +1,29 @@
+paths:
+  root_folder: "/Users/Mounir/SaMedia-Garvis/Data"
+  output_folder: "/Users/Mounir/SaMedia-Garvis/Data Out"
+
+file_types:
+  documents:
+    - ".pdf"
+    - ".docx"
+  ignore:
+    - ".mp4"
+    - ".mov"
+
+folders:
+  external: "SA Media - External"
+  internal: "SA Media - Internal"
+  client: "SA Media - Client"
+
+xml:
+  external_file: "External.xml"
+  internal_file: "Internal.xml"
+  client_file: "Client.xml"
+
+chunking:
+  chunk_size: 500
+  chunk_overlap: 50
+
+vector_store:
+  collection_name: "documents"
+  embedding_model: "all-MiniLM-L6-v2" 
